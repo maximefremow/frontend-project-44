@@ -1,0 +1,15 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "main": "project.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxim Efremov",
+  "license": "ISC",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "description": ""
+}
