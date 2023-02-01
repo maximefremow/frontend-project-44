@@ -19,7 +19,7 @@ const game = () => {
   console.log('What number is missing in the progression?');
   for (let i = 0; i < 3; i += 1) {
     const start = getRandomArbitrary(0, 10);
-    const delta = getRandomArbitrary(0, 5);
+    const delta = getRandomArbitrary(1, 5);
     const additionOperations = 9;
     const hiddenIndex = getRandomArbitrary(0, additionOperations);
     const members = getProgression(start, additionOperations, delta);
