@@ -1,5 +1,5 @@
 install:
-	npx ci
+	npm ci
 
 brain-games:
 	node bin/brain-games.js

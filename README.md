@@ -13,8 +13,7 @@ Node.js v13 or higher
     * cd frontend-project-44
     * make install
 
-Choose your game.
-Demonstrations.
+Choose your game. Demonstrations:
 
 * Install link.
 [![asciicast](https://asciinema.org/a/Tr5kygC0jBGqhWJrODPs7mKtC.svg)](https://asciinema.org/a/Tr5kygC0jBGqhWJrODPs7mKtC)
