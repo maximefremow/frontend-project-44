@@ -1,11 +1,7 @@
 import readlineSync from 'readline-sync';
-import beginGame from '../index.js';
+import beginGame, { getRandomNumber } from '../index.js';
 
-const randomNumber = () => {
-  const number = (Math.round(Math.random() * 100));
-  return number;
-};
-const gcd = (num1, num2) => {
+const getGCD = (num1, num2) => {
   let divider;
   if (num1 > num2) {
     divider = num2;
@@ -20,19 +16,19 @@ const gcd = (num1, num2) => {
   } return result;
 };
 
-const playGCD = () => {
-  const first = randomNumber();
-  const second = randomNumber();
+const gameGCD = () => {
+  const first = getRandomNumber();
+  const second = getRandomNumber();
   const question = `${first} ${second}`;
-  const correctAnswer = gcd(first, second);
+  const correctAnswer = getGCD(first, second);
   return [question, correctAnswer];
 };
 
-const game = () => {
+const startGame = () => {
   const userName = beginGame();
   console.log('Find the greatest common divisor of given numbers.');
   for (let i = 0; i < 3; i += 1) {
-    const [question, correctAnswer] = playGCD();
+    const [question, correctAnswer] = gameGCD();
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (correctAnswer !== userAnswer) {
@@ -43,4 +39,4 @@ const game = () => {
   } console.log(`Congratulations, ${userName}!`);
 };
 
-export default game;
+export default startGame;
