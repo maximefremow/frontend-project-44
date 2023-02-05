@@ -13,7 +13,7 @@ Node.js v13 or higher
     * cd frontend-project-44
     * make install
 
-##Choose your game.
+Choose your game.
 Demonstrations.
 
 * Install link.
@@ -43,4 +43,4 @@ Demonstrations.
 [![asciicast](https://asciinema.org/a/kJ7Rm2cYOpMwmZ4YTkd69c3jW.svg)](https://asciinema.org/a/kJ7Rm2cYOpMwmZ4YTkd69c3jW)
 * Starting the game. Player loss.
 [![asciicast](https://asciinema.org/a/y1P3OgbPveGbJlQDvXGhI16Cz.svg)](https://asciinema.org/a/y1P3OgbPveGbJlQDvXGhI16Cz)
-##### Have a good game!
+Have a good game!
