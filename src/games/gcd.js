@@ -4,7 +4,7 @@ const getGCD = (num1, num2) => {
   let divider;
   if (num1 > num2) {
     divider = num2;
-  } else {
+  } else if (num1 < num2) {
     divider = num1;
   }
   let result = 0;
