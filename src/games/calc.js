@@ -1,4 +1,5 @@
-import playEngine, { getRandomArbitrary, getRandomNumber } from '../index.js';
+import playEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const getCalculate = (num1, num2, operation) => {
   switch (operation) {
@@ -9,15 +10,14 @@ const getCalculate = (num1, num2, operation) => {
     case '*':
       return num1 * num2;
     default:
-      return `Unknown ${operation}!`;
+      throw new Error(`Unknown ${operation}!`);
   }
 };
-
+const operators = ['+', '-', '*'];
 const generatedData = () => {
   const first = getRandomNumber();
   const second = getRandomNumber();
-  const operators = ['+', '-', '*'];
-  const operator = operators[getRandomArbitrary(0, operators.length - 1)];
+  const operator = operators[getRandomNumber(0, operators.length - 1)];
   const question = `${first} ${operator} ${second}`;
   const correctAnswer = getCalculate(first, second, operator).toString();
   return [question, correctAnswer];

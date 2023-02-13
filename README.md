@@ -16,30 +16,30 @@ Node.js v13 or higher
 Choose your game. Demonstrations:
 
 * Install link.
-[![asciicast](https://asciinema.org/a/Tr5kygC0jBGqhWJrODPs7mKtC.svg)](https://asciinema.org/a/Tr5kygC0jBGqhWJrODPs7mKtC)
+[![asciicast](https://asciinema.org/a/lqivIoIOCxzrTn4KWjAkv8cd4.svg)](https://asciinema.org/a/lqivIoIOCxzrTn4KWjAkv8cd4)
 1. Game: "Even parity". Answer "yes" if the number is even, otherwise answer "no".
 * Starting the game. Player win.
-[![asciicast](https://asciinema.org/a/B9H5ivzDrNoMtXdNrRCZFEtwT.svg)](https://asciinema.org/a/B9H5ivzDrNoMtXdNrRCZFEtwT)
+[![asciicast](https://asciinema.org/a/u1ftL4R61La6JP1UmPDirij5b.svg)](https://asciinema.org/a/u1ftL4R61La6JP1UmPDirij5b)
 * Starting the game. Player loss.
-[![asciicast](https://asciinema.org/a/lOh3cbzFwP8xl5W7JppchWQuD.svg)](https://asciinema.org/a/lOh3cbzFwP8xl5W7JppchWQuD)
+[![asciicast](https://asciinema.org/a/aGmVTUxvUToaiyxa1LsEGMuBp.svg)](https://asciinema.org/a/aGmVTUxvUToaiyxa1LsEGMuBp)
 2. Game: "Calculator". What is the result of the expression?
 * Starting the game. Player win.
-[![asciicast](https://asciinema.org/a/aIAKvZmm4xYAh9RcvEUuUORKV.svg)](https://asciinema.org/a/aIAKvZmm4xYAh9RcvEUuUORKV)
+[![asciicast](https://asciinema.org/a/0aphQuu86i0E1Llt6edITruEq.svg)](https://asciinema.org/a/0aphQuu86i0E1Llt6edITruEq)
 * Starting the game. Player loss.
-[![asciicast](https://asciinema.org/a/yTLxYuxqNM1y6KJx7oqH2b9Yu.svg)](https://asciinema.org/a/yTLxYuxqNM1y6KJx7oqH2b9Yu)
+[![asciicast](https://asciinema.org/a/AU1R39vpPNbXOoYpiLtu7sc1R.svg)](https://asciinema.org/a/AU1R39vpPNbXOoYpiLtu7sc1R)
 3. Game: "Greatest common divisor". Find the greatest common divisor of given numbers.
 * Starting the game. Player win.
-[![asciicast](https://asciinema.org/a/S05GqLwc6yJ3zBXjkkkVnNUWr.svg)](https://asciinema.org/a/S05GqLwc6yJ3zBXjkkkVnNUWr)
+[![asciicast](https://asciinema.org/a/tCWYQq4ayXCaeq7JoJ22H91Ql.svg)](https://asciinema.org/a/tCWYQq4ayXCaeq7JoJ22H91Ql)
 * Starting the game. Player loss.
-[![asciicast](https://asciinema.org/a/GaurmMqHyOCY7aU4PAgowUmN6.svg)](https://asciinema.org/a/GaurmMqHyOCY7aU4PAgowUmN6)
+[![asciicast](https://asciinema.org/a/sLlhAs0jHqEWqcpSyNeafENoE.svg)](https://asciinema.org/a/sLlhAs0jHqEWqcpSyNeafENoE)
 4. Game: "Arithmetic progression". What number is missing in the progression?
 * Starting the game. Player win.
-[![asciicast](https://asciinema.org/a/fGwBSTO8MiwLRKmhZeqQvQNYT.svg)](https://asciinema.org/a/fGwBSTO8MiwLRKmhZeqQvQNYT)
+[![asciicast](https://asciinema.org/a/VgFJYMwqRuMTS6m1KGj02z3lE.svg)](https://asciinema.org/a/VgFJYMwqRuMTS6m1KGj02z3lE)
 * Starting the game. Player loss.
-[![asciicast](https://asciinema.org/a/wV0i6XIK6jWz1danFBkzrfXdW.svg)](https://asciinema.org/a/wV0i6XIK6jWz1danFBkzrfXdW)
+[![asciicast](https://asciinema.org/a/UCJrxJGsM5OA2cNvmpHflgioo.svg)](https://asciinema.org/a/UCJrxJGsM5OA2cNvmpHflgioo)
 5. Game: "Is it a prime number?" Answer "yes" if given number is prime. Otherwise answer "no".
 * Starting the game. Player win.
-[![asciicast](https://asciinema.org/a/kJ7Rm2cYOpMwmZ4YTkd69c3jW.svg)](https://asciinema.org/a/kJ7Rm2cYOpMwmZ4YTkd69c3jW)
+[![asciicast](https://asciinema.org/a/74sblzElpWvJlLQSuty0CdTIY.svg)](https://asciinema.org/a/74sblzElpWvJlLQSuty0CdTIY)
 * Starting the game. Player loss.
-[![asciicast](https://asciinema.org/a/y1P3OgbPveGbJlQDvXGhI16Cz.svg)](https://asciinema.org/a/y1P3OgbPveGbJlQDvXGhI16Cz)
+[![asciicast](https://asciinema.org/a/m0fDh7cgFLwxryMw0dOu5Rl66.svg)](https://asciinema.org/a/m0fDh7cgFLwxryMw0dOu5Rl66)
 Have a good game!

@@ -1,20 +1,20 @@
-import playEngine, { getRandomArbitrary } from '../index.js';
+import playEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
-const getProgression = (start, additionOperations, delta) => {
+const getProgression = (initialNumber, additionOperations, differenceBetweenNumbers) => {
   const members = [];
   for (let i = 0; i <= additionOperations; i += 1) {
-    members.push(start + delta * i);
+    members.push(initialNumber + differenceBetweenNumbers * i);
   }
   return members;
 };
-
+const additionOperations = 9;
 const task = 'What number is missing in the progression?';
 const generatedData = () => {
-  const start = getRandomArbitrary(0, 10);
-  const delta = getRandomArbitrary(1, 5);
-  const additionOperations = 9;
-  const hiddenIndex = getRandomArbitrary(0, additionOperations);
-  const members = getProgression(start, additionOperations, delta);
+  const initialNumber = getRandomNumber(0, 10);
+  const differenceBetweenNumbers = getRandomNumber(1, 5);
+  const hiddenIndex = getRandomNumber(0, additionOperations);
+  const members = getProgression(initialNumber, additionOperations, differenceBetweenNumbers);
   const correctAnswer = String(members[hiddenIndex]);
   members[hiddenIndex] = '..';
   const question = String(members.join(' '));

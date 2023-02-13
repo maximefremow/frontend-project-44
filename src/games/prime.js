@@ -1,4 +1,5 @@
-import playEngine, { getRandomNumber } from '../index.js';
+import playEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const isPrime = (num) => {
   if (num < 2) {

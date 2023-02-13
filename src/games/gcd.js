@@ -1,25 +1,22 @@
-import playEngine, { getRandomNumber } from '../index.js';
+import playEngine from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const getGCD = (num1, num2) => {
-  let divider;
-  if (num1 > num2) {
-    divider = num2;
-  } else if (num1 < num2) {
-    divider = num1;
-  }
+  const divider = ((num1 > num2) ? num2 : num1);
   let result = 0;
   for (let i = 0; i <= divider; i += 1) {
     if ((num1 % i === 0) && (num2 % i === 0)) {
-      result = String(i);
+      result = i;
     }
-  } return result;
+  }
+  return result;
 };
 
 const generatedData = () => {
   const first = getRandomNumber();
   const second = getRandomNumber();
   const question = `${first} ${second}`;
-  const correctAnswer = getGCD(first, second);
+  const correctAnswer = String(getGCD(first, second));
   return [question, correctAnswer];
 };
 const task = 'Find the greatest common divisor of given numbers.';
