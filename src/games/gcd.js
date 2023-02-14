@@ -1,4 +1,4 @@
-import playEngine from '../index.js';
+import getPlayGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const getGCD = (num1, num2) => {
@@ -22,7 +22,7 @@ const generatedData = () => {
 const task = 'Find the greatest common divisor of given numbers.';
 
 const startGame = () => {
-  playEngine(generatedData, task);
+  getPlayGame(generatedData, task);
 };
 
 export default startGame;

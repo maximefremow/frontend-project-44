@@ -1,4 +1,4 @@
-import playEngine from '../index.js';
+import getPlayGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const getProgression = (initialNumber, additionOperations, differenceBetweenNumbers) => {
@@ -8,11 +8,15 @@ const getProgression = (initialNumber, additionOperations, differenceBetweenNumb
   }
   return members;
 };
-const additionOperations = 9;
+
 const task = 'What number is missing in the progression?';
+const additionOperations = 9;
+const firstNumberOfTheStep = 1;
+const lastNumberOfTheStep = 5;
+
 const generatedData = () => {
-  const initialNumber = getRandomNumber(0, 10);
-  const differenceBetweenNumbers = getRandomNumber(1, 5);
+  const initialNumber = getRandomNumber();
+  const differenceBetweenNumbers = getRandomNumber(firstNumberOfTheStep, lastNumberOfTheStep);
   const hiddenIndex = getRandomNumber(0, additionOperations);
   const members = getProgression(initialNumber, additionOperations, differenceBetweenNumbers);
   const correctAnswer = String(members[hiddenIndex]);
@@ -21,7 +25,7 @@ const generatedData = () => {
   return [question, correctAnswer];
 };
 const startGame = () => {
-  playEngine(generatedData, task);
+  getPlayGame(generatedData, task);
 };
 
 export default startGame;

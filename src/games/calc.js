@@ -1,4 +1,4 @@
-import playEngine from '../index.js';
+import getPlayGame from '../index.js';
 import getRandomNumber from '../utils.js';
 
 const getCalculate = (num1, num2, operation) => {
@@ -26,7 +26,7 @@ const generatedData = () => {
 const task = 'What is the result of the expression?';
 
 const startGame = () => {
-  playEngine(generatedData, task);
+  getPlayGame(generatedData, task);
 };
 
 export default startGame;
