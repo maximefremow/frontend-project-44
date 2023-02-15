@@ -14,18 +14,18 @@ const additionOperations = 9;
 const firstNumberOfTheStep = 1;
 const lastNumberOfTheStep = 5;
 
-const generatedData = () => {
+const generateData = () => {
   const initialNumber = getRandomNumber();
   const differenceBetweenNumbers = getRandomNumber(firstNumberOfTheStep, lastNumberOfTheStep);
   const hiddenIndex = getRandomNumber(0, additionOperations);
   const members = getProgression(initialNumber, additionOperations, differenceBetweenNumbers);
   const correctAnswer = String(members[hiddenIndex]);
   members[hiddenIndex] = '..';
-  const question = String(members.join(' '));
+  const question = members.join(' ');
   return [question, correctAnswer];
 };
 const startGame = () => {
-  getPlayGame(generatedData, task);
+  getPlayGame(generateData, task);
 };
 
 export default startGame;

@@ -14,7 +14,7 @@ const getCalculate = (num1, num2, operation) => {
   }
 };
 const operators = ['+', '-', '*'];
-const generatedData = () => {
+const generateData = () => {
   const first = getRandomNumber();
   const second = getRandomNumber();
   const operator = operators[getRandomNumber(0, operators.length - 1)];
@@ -26,7 +26,7 @@ const generatedData = () => {
 const task = 'What is the result of the expression?';
 
 const startGame = () => {
-  getPlayGame(generatedData, task);
+  getPlayGame(generateData, task);
 };
 
 export default startGame;
