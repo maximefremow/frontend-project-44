@@ -15,7 +15,9 @@ const getPlayGame = (generateData, task) => {
       console.log(`Let's try again, ${userName}!`);
       return;
     }
+    console.log('Correct!');
   }
   console.log(`Congratulations, ${userName}!`);
 };
+
 export default getPlayGame;
